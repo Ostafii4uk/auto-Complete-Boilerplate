@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.users__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.users__item {
+  padding: 5px;
+
+  background-color: silver;
+
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s linear;
+}
+
+.users__item:hover {
+  background-color: red;
+}
+
+.users__item-active {
+  padding: 5px;
+
+  background-color: red;
+
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  cursor: pointer;
+}
