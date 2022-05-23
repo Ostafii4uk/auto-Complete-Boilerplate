@@ -1,0 +1,2 @@
+.wrapper{display:flex;justify-content:center}.users__list{margin:0;padding:0;list-style:none}.users__item{padding:5px;background-color:silver;border-bottom:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;cursor:pointer;transition:background-color .3s linear}.users__item-active,.users__item:hover{background-color:red}.users__item-active{padding:5px;border-bottom:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;cursor:pointer}
+/*# sourceMappingURL=main.7676a839.chunk.css.map */
